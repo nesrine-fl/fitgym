@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
+  base: "/FITSAM/",
   server: {
     host: "::",
     port: 8080,
@@ -17,8 +18,4 @@ export default defineConfig({
     },
     dedupe: ["react", "react-dom"],
   },
-});
-export default defineConfig({
-  base: "/FITSAM/",
-  plugins: [react()],
 });
