@@ -3,7 +3,9 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  base: "/",
+  // For GitHub Pages at https://nesrine-fl.github.io/fitgym/
+  // base must match the repo name, including the trailing slash.
+  base: "/fitgym/",
   server: {
     host: "::",
     port: 8080,
