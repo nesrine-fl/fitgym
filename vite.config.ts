@@ -18,3 +18,7 @@ export default defineConfig({
     dedupe: ["react", "react-dom"],
   },
 });
+export default defineConfig({
+  base: "/FITSAM/",
+  plugins: [react()],
+});
