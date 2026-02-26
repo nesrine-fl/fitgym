@@ -2,9 +2,9 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { Instagram } from "lucide-react";
-import trainer1 from "../assets/trainer-1.jpg";
-import trainer2 from "../assets/trainer-2.jpg";
-import trainer3 from "../assets/trainer-3.jpg";
+import trainer1 from "@/assets/trainer-1.jpg";
+import trainer2 from "@/assets/trainer-2.jpg";
+import trainer3 from "@/assets/trainer-3.jpg";
 
 const trainers = [
   { name: "Ahmed Benali", nameAr: "أحمد بن علي", role: "Head Coach", roleAr: "المدرب الرئيسي", image: trainer1, speciality: "Strength & Conditioning", specialityAr: "القوة واللياقة" },
